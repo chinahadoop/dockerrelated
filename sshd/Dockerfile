@@ -3,7 +3,7 @@
 # VERSION               0.0.2
 
 FROM centos:6.6
-MAINTAINER Sven Dowideit <SvenDowideit@docker.com>
+MAINTAINER Kenneth Xian <xianmaoyuan@hotmail.com>
 
 RUN yum clean all && yum install -y openssh-server openssh-clients
 RUN mkdir /var/run/sshd
